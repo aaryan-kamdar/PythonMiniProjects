@@ -143,29 +143,4 @@ python SlotMachine.py
 
 ---
 
-## Future Goals
 
-I plan to continue expanding this repository with more advanced Python projects, including:
-
-* Expense Tracker
-* Password Manager
-* Weather Application (API)
-* Flask Web Applications
-* SQLite Projects
-* To-Do List Application
-* Chess/Sudoku Game
-* Data Analysis Projects
-
----
-
-## About Me
-
-I am continuously learning software development and using these projects to strengthen my understanding of Python, problem-solving, and programming best practices.
-
-Feel free to explore the projects, provide feedback, or contribute improvements!
-
----
-
-## License
-
-This project is open source and available under the MIT License.
