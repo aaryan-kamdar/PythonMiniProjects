@@ -1,7 +1,5 @@
 # PythonMiniProjects
 
- # Python Mini Projects Collection
-
 A collection of terminal-based Python projects built while learning programming fundamentals, problem-solving, and software development concepts.
 
 These projects demonstrate skills in:
