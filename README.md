@@ -1,6 +1,6 @@
 # PythonMiniProjects
 
-A collection of terminal-based Python projects built while learning programming fundamentals, problem-solving, and software development concepts.
+A collection of Python projects built while learning programming fundamentals, problem-solving, APIs, desktop applications, and software development concepts.
 
 These projects demonstrate skills in:
 
@@ -8,10 +8,12 @@ These projects demonstrate skills in:
 * Object-oriented and functional concepts
 * Input validation
 * File handling
-* Randomization
-* Terminal user interfaces
+* API integration
+* Terminal and desktop user interfaces
 * Algorithmic thinking
 * Performance measurement
+* Exception handling
+* Working with external tools
 
 ---
 
@@ -71,10 +73,40 @@ A slot machine game where users can deposit money, place bets, and win rewards b
 
 ---
 
+### 5. Weather Watch
+
+A weather monitoring application that retrieves real-time weather data from the OpenWeatherMap API and allows users to compare conditions across multiple cities.
+
+**Skills Demonstrated:**
+
+* REST APIs
+* Exception handling
+* Pandas
+* JSON parsing
+* Data presentation
+* Environment variable management
+
+---
+
+### 6. YouTube Video Downloader
+
+A desktop-based application that downloads YouTube videos in high quality and automatically merges audio and video streams using FFmpeg.
+
+**Skills Demonstrated:**
+
+* GUI programming with Tkinter
+* File management
+* Subprocess handling
+* FFmpeg integration
+* Regular expressions
+* Third-party libraries
+
+---
+
 ## Repository Structure
 
 ```text
-Python-Projects/
+PythonMiniProjects/
 │
 ├── Dice-Game/
 │   ├── DiceGame.py
@@ -93,6 +125,14 @@ Python-Projects/
 │   ├── SlotMachine.py
 │   └── README.md
 │
+├── Weather-Watch/
+│   ├── WeatherWatch.py
+│   └── README.md
+│
+├── Youtube-Video-Downloader/
+│   ├── YoutubeVideoDownloader.py
+│   └── README.md
+│
 └── README.md
 ```
 
@@ -103,21 +143,26 @@ Python-Projects/
 Clone the repository:
 
 ```bash
-git clone https://github.com/<your-username>/Python-Projects.git
+git clone https://github.com/<your-username>/PythonMiniProjects.git
 ```
 
 Move into the project directory:
 
 ```bash
-cd Python-Projects
+cd PythonMiniProjects
 ```
 
 Install dependencies:
 
 ```bash
 pip install numpy
-pip install windows-curses   # Windows users only
+pip install pandas
+pip install requests
+pip install pytubefix
+pip install windows-curses    # Windows users only
 ```
+
+> Note: `WeatherWatch.py` requires an OpenWeatherMap API key, and `YoutubeVideoDownloader.py` requires FFmpeg to be installed and added to your system PATH.
 
 ---
 
@@ -127,20 +172,15 @@ Run any project using Python:
 
 ```bash
 python DiceGame.py
-```
-
-```bash
 python TypingTest.py
-```
-
-```bash
 python TimedMath.py
-```
-
-```bash
 python SlotMachine.py
+python WeatherWatch.py
+python YoutubeVideoDownloader.py
 ```
 
----
 
 
+
+
+This project is open source and available under the MIT License.
